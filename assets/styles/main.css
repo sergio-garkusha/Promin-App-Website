@@ -1,0 +1,89 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app-body {
+    display: grid;
+    grid-template: 'left-col right-col';
+    grid-template-columns: 50% 50%;
+}
+
+#app-header {
+    grid-area: left-col;
+    min-height: 100vh;
+    background-color: #5177FF;
+    display: grid;
+}
+
+#logo {
+    justify-self: center;
+    align-self: center;
+    display: block;
+}
+
+#app-content {
+    grid-area: right-col;
+    min-height: 100vh;
+    background-color: #FFF;
+    display: grid;
+}
+
+#inner-content {
+    display: grid;
+    align-content: center;
+}
+
+#app-content p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#app-content p a {
+    color: #5177FF;
+}
+
+#downloads {
+    display: grid;
+    grid-template: 'apple-store google-store';
+    margin: auto;
+}
+
+#downloads a {
+    display: block;
+    width: 250px;
+    height: 97px;
+    color: transparent;
+}
+
+#downloads a:first-child {
+    grid-area: apple-store;
+    background-image: url("../img/app-store-badge.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#downloads a:last-child {
+    grid-area: google-store;
+    background-image: url("../img/google-play-badge.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1023px) {
+    #app-body {
+        display: grid;
+        grid-template:
+            'left-col'
+            'right-col'
+    }
+
+    #app-header {
+        min-height: 50vh;
+    }
+
+    #app-content {
+        min-height: 50vh;
+    }
+}
