@@ -35,6 +35,10 @@ body {
     align-content: center;
 }
 
+#app-slogan {
+    padding: 0 1rem;
+}
+
 #app-content p {
     text-align: center;
     font-size: 1.3rem;
@@ -80,10 +84,14 @@ body {
     }
 
     #app-header {
-        min-height: 50vh;
+        min-height: 43vh;
     }
 
     #app-content {
-        min-height: 50vh;
+        min-height: 43vh;
+    }
+
+    #downloads a {
+        width: 170px;
     }
 }
