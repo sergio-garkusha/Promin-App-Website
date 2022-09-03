@@ -1,33 +1,41 @@
+:root {
+    --header-bgcolor: #5177FF;
+    --content-bgbgcolor: #F3F3F3;
+    --txt-color: #000;
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--content-bgbgcolor);
+    transition: background-color 0.5s ease;
 }
 
 #app-body {
     display: grid;
     grid-template: 'left-col right-col';
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%
 }
 
 #app-header {
     grid-area: left-col;
     min-height: 100vh;
-    background-color: #5177FF;
     display: grid;
+    background-color: var(--header-bgcolor);
 }
 
 #logo {
     justify-self: center;
     align-self: center;
-    display: block;
+    display: block
 }
 
 #app-content {
     grid-area: right-col;
     min-height: 100vh;
-    background-color: #FFF;
     display: grid;
+    background-color: var(--content-bgbgcolor);
 }
 
 #inner-content {
@@ -42,10 +50,12 @@ body {
 #app-content p {
     text-align: center;
     font-size: 1.3rem;
+    color: var(--txt-color);
+    transition: background-color 0.9s ease;
 }
 
 #app-content p a {
-    color: #5177FF;
+    color: var(--header-bgcolor)
 }
 
 #downloads {
@@ -93,5 +103,12 @@ body {
 
     #downloads a {
         width: 170px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --content-bgbgcolor: #18203A;
+        --txt-color: #FFF;
     }
 }
