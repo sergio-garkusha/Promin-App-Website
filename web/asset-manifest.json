@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/web/static/js/app.8afc84ea.chunk.js",
-    "app.js.map": "/web/static/js/app.8afc84ea.chunk.js.map",
+    "app.js": "/web/static/js/app.2188f412.chunk.js",
+    "app.js.map": "/web/static/js/app.2188f412.chunk.js.map",
     "runtime~app.js": "/web/static/js/runtime~app.823c642f.js",
     "runtime~app.js.map": "/web/static/js/runtime~app.823c642f.js.map",
-    "static/js/2.0fd0cb15.chunk.js": "/web/static/js/2.0fd0cb15.chunk.js",
-    "static/js/2.0fd0cb15.chunk.js.map": "/web/static/js/2.0fd0cb15.chunk.js.map",
+    "static/js/2.688f4c42.chunk.js": "/web/static/js/2.688f4c42.chunk.js",
+    "static/js/2.688f4c42.chunk.js.map": "/web/static/js/2.688f4c42.chunk.js.map",
     "fonts/Ubuntu-M.ttf": "/web/./fonts/Ubuntu-M.ttf",
     "fonts/Ubuntu-R.ttf": "/web/./fonts/Ubuntu-R.ttf",
     "favicon-16.png": "/web/favicon-16.png",
@@ -14,7 +14,7 @@
     "index.html": "/web/index.html",
     "manifest.json": "/web/manifest.json",
     "serve.json": "/web/serve.json",
-    "static/js/2.0fd0cb15.chunk.js.LICENSE.txt": "/web/static/js/2.0fd0cb15.chunk.js.LICENSE.txt",
+    "static/js/2.688f4c42.chunk.js.LICENSE.txt": "/web/static/js/2.688f4c42.chunk.js.LICENSE.txt",
     "static/media/01-syrena.mp4": "/web/static/media/01-syrena.8b868f5f.mp4",
     "static/media/02-re.mp4": "/web/static/media/02-re.c0de1794.mp4",
     "static/media/03-nudno.mp4": "/web/static/media/03-nudno.bbad8f9a.mp4",
@@ -43,7 +43,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.823c642f.js",
-    "static/js/2.0fd0cb15.chunk.js",
-    "static/js/app.8afc84ea.chunk.js"
+    "static/js/2.688f4c42.chunk.js",
+    "static/js/app.2188f412.chunk.js"
   ]
 }
