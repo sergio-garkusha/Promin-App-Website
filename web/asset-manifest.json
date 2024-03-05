@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/web/static/js/main.2581b968.js",
-    "static/js/799.6d23bac2.js": "/web/static/js/799.6d23bac2.js",
+    "main.js": "/web/static/js/main.e5d16f44.js",
+    "static/js/700.35b07aa0.js": "/web/static/js/700.35b07aa0.js",
     "static/media/03-nudno.mp4": "/web/static/media/03-nudno.bbad8f9ae6790840fad3.mp4",
     "static/media/02-re.mp4": "/web/static/media/02-re.c0de1794a79285209796.mp4",
     "static/media/04-neposeda.mp4": "/web/static/media/04-neposeda.b6386937c42dc4ca3f58.mp4",
@@ -35,11 +35,11 @@
     "manifest.json": "/web/manifest.json",
     "favicon-16.png": "/web/favicon-16.png",
     "serve.json": "/web/serve.json",
-    "main.2581b968.js.map": "/web/static/js/main.2581b968.js.map",
-    "799.6d23bac2.js.map": "/web/static/js/799.6d23bac2.js.map"
+    "main.e5d16f44.js.map": "/web/static/js/main.e5d16f44.js.map",
+    "700.35b07aa0.js.map": "/web/static/js/700.35b07aa0.js.map"
   },
   "entrypoints": [
-    "static/js/799.6d23bac2.js",
-    "static/js/main.2581b968.js"
+    "static/js/700.35b07aa0.js",
+    "static/js/main.e5d16f44.js"
   ]
 }
